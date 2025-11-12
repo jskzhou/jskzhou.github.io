@@ -7,14 +7,12 @@ nav_order: 4
 description: Current resume
 ---
 
-<style>
-  .pdf-wrap { height: 85vh; border: 1px solid var(--global-border-color, #e5e7eb); }
-  .pdf-fallback { padding: 0.75rem 0; }
-</style>
+{% include base_path %}
 
-<div class="pdf-wrap">
-  <embed
-    src="{{ '/assets/pdf/resume.pdf#view=FitH' | relative_url }}"
-    type="application/pdf"
-    width="100%" height="100%">
-</div>
+<!-- Embed your resume PDF -->
+<iframe
+  src="{{ base_path }}/assets/pdf/Resume_JasonZhou.pdf#view=FitH"
+  width="100%"
+  height="1000px"
+  style="border: none;">
+</iframe>
