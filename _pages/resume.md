@@ -1,10 +1,10 @@
 ---
-layout: resumé
-permalink: /resumé/
-title: resumé
+layout: resume
+permalink: /resume/
+title: resume
 nav: true
-nav_order: 5
-description: Current resumé
+nav_order: 4
+description: Current resume
 ---
 
 <style>
@@ -13,17 +13,8 @@ description: Current resumé
 </style>
 
 <div class="pdf-wrap">
-  <object
-    data="{{ '/assets/files/Resume_Fall_2025.pdf#view=FitH' | relative_url }}"
+  <embed
+    src="{{ '/assets/pdf/resume.pdf#view=FitH' | relative_url }}"
     type="application/pdf"
     width="100%" height="100%">
-    <iframe
-      src="{{ '/assets/files/Resume_Fall_2025.pdf#view=FitH' | relative_url }}"
-      width="100%" height="100%">
-    </iframe>
-  </object>
 </div>
-
-<p class="pdf-fallback">
-  Can’t see the PDF? <a href="{{ '/assets/files/Resume_Fall_2025.pdf' | relative_url }}" download>Download the resumé</a>.
-</p>
