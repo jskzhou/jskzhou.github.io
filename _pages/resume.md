@@ -1,5 +1,5 @@
 ---
-layout: resume
+layout: page
 permalink: /resume/
 title: resume
 nav: true
@@ -7,12 +7,23 @@ nav_order: 4
 description: Current resume
 ---
 
-{% include base_path %}
+<!-- Embedded PDF Resume -->
+<div class="pdf-container" style="width: 100%; height: 800px; border: 1px solid #ccc; margin: 20px 0;">
+  <iframe src="{{ '/assets/pdf/Resume_JasonZhou.pdf' | relative_url }}" 
+          width="100%" 
+          height="100%" 
+          style="border: none;">
+    <p>Your browser does not support PDFs. 
+       <a href="{{ '/assets/pdf/Resume_JasonZhou.pdf' | relative_url }}">Download the PDF</a>.
+    </p>
+  </iframe>
+</div>
 
-<!-- Embed your resume PDF -->
-<iframe
-  src="{{ base_path }}/assets/pdf/Resume_JasonZhou.pdf#view=FitH"
-  width="100%"
-  height="1000px"
-  style="border: none;">
-</iframe>
+<!-- Fallback download link -->
+<div class="pdf-download" style="text-align: center; margin: 20px 0;">
+  <a href="{{ '/assets/pdf/Resume_JasonZhou.pdf' | relative_url }}" 
+     class="btn btn-primary" 
+     target="_blank">
+    📄 Download Resume (PDF)
+  </a>
+</div>
