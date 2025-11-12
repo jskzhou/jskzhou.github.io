@@ -26,14 +26,14 @@ description: Current resume
   </object>
 </div>
 
-<!-- Google Drive PDF Viewer as backup -->
+<!-- Google Drive PDF Viewer as backup
 <div class="pdf-container-alt" style="width: 100%; height: 800px; border: 1px solid #ddd; margin: 20px 0;">
   <iframe src="https://drive.google.com/file/d/1mg8i10ErLP6jKe78ddfc77ygl0NAUdNP/view?usp=sharing" 
           width="100%" 
           height="100%" 
           style="border: none;">
   </iframe>
-</div>
+</div> -->
 
 <!-- Download button -->
 <div class="pdf-download" style="text-align: center; margin: 20px 0;">
