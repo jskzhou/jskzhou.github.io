@@ -27,9 +27,11 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a MSAA student in the [Autonomous Controls Lab](https://uwacl.com) at the University of Washington, advised by Professor [Behçet Açikmeşe](https://www.aa.washington.edu/facultyfinder/behcet-acikmese). My research is focused on full-stack innovation of autonomous unmanned aerial systems (UAS), from vehicle design to feedback control and trajectory planning algorithms. I am particularly interested in improving the flight envelope for high-speed and hyper-agile systems. 
+I am a GNC System Development Engineer on the Flight Control Systems team at [Amazon Prime Air](https://www.aboutamazon.com/news/tag/drone). 
 
-I graduated with distinction with a BASc from the [Engineering Physics](https://www.engphys.ubc.ca/) program at the University of British Columbia in 2023. My internship experience includes:
+I did my MSAA with Professor [Behçet Açikmeşe](https://www.aa.washington.edu/facultyfinder/behcet-acikmese) at the University of Washington, as part of the [Autonomous Controls Lab](https://uwacl.com). My research focused on full-stack innovation of UAS, from vehicle design to feedback control and trajectory planning algorithms. Previously, I graduated with distinction with a BASc from the [Engineering Physics](https://www.engphys.ubc.ca/) program at the University of British Columbia in 2023. 
+
+My internship experience includes:
 - Steering firmware integration at [Tesla](https://www.tesla.com)
 - Safe RL research under Professor [Maryam Kamgarpour](https://scholar.google.com/citations?user=m6YgGqAAAAAJ&hl=en) (UBC)
 - Algorithm development for smart agriculture at [Verdi](https://www.verdi.ag)
